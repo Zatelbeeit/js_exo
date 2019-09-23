@@ -1,11 +1,22 @@
 var smiley = [";-)", ";-)", ":-(", "X-D"];
-var replaceSmiley = ["---"];
+var i = 0;
 var dirty = document.getElementById("text");
+var newtext = document.getElementById("clean");
+var btn = document.getElementById("moderate");
 
 
-document.getElementById("moderate").addEventListener("click", function(){
-  document.getElementById("text").value;
-    
+btn.addEventListener("click", function(){
+  var text = dirty.value;
+while(i = smiley.length){
+  if (text smiley[i].)
+}
+
+
+ text = text.replace(";-)", "---")
+
+
+  newtext.innerHTML = text ;
+
 });
 
 
